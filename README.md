@@ -16,6 +16,9 @@
 # 转换
 python tools/k4_to_kn.py 作品.bcm4 -o 作品.bcmkn --report 报告.md
 
+# 导入
+详见->[如何获得喵链接](https://github.com/Demgden/k4-to-kn/blob/main/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E5%96%B5%E9%93%BE%E6%8E%A5.md)
+
 # 校验（结构 + 对账 K4 源 + 变量/广播引用完整性）
 python tools/validate_kn.py 作品.bcmkn --k4 作品.bcm4 [--official 官方产物.bcmkn]
 
