@@ -162,17 +162,7 @@ https://creation.bcmcdn.com/922/user-files/<内容哈希>.bcmkn
 按十六进制转成 21 个字节，再 base64url。所以文件改一个字节，链接就会变。
 
 拿链接的方法、以及可直接在已登录页面控制台粘贴的上传脚本见：
-- `docs/format-notes.md` 第三部分
+- [docs/format-notes.md](https://github.com/Demgden/k4-to-kn/blob/main/docs/format-notes.md) 第三部分
+
+或[如何获得喵链接](https://github.com/Demgden/k4-to-kn/blob/main/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E5%96%B5%E9%93%BE%E6%8E%A5.md)
 - `tools/make_miao_link.js`
-
----
-
-## 仓库里没有什么
-
-| 内容 | 为什么 |
-| --- | --- |
-| 官方转换器源码 | 混淆过、体积几 MB，且不是本仓库的代码；需要时按 `docs/format-notes.md` §2 自行抓取 |
-| `.bcm4` / `.bcmkn` 作品样本 | 体积大、是他人作品，不适合作为开源样例分发 |
-| `out/`（转换产物与报告） | 每次转换都会重新生成 |
-
-转换与校验只需要 `tools/k4kn/data/` 下的两份映射表，不需要官方源码在场。
